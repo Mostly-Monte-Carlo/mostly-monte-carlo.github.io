@@ -8,15 +8,6 @@
     ]
   },
   {
-    "listing": "/sem/summary_2026.html",
-    "items": [
-      "/sem/2026/s2026_01.html",
-      "/sem/2026/s2026_02.html",
-      "/sem/2026/s2026_03.html",
-      "/sem/2026/s2026_04.html"
-    ]
-  },
-  {
     "listing": "/sem/summary_2024.html",
     "items": [
       "/sem/2024/s2024_01.html",
@@ -29,6 +20,16 @@
       "/sem/2024/s2024_10.html",
       "/sem/2024/s2024_11.html",
       "/sem/2024/s2024_12.html"
+    ]
+  },
+  {
+    "listing": "/sem/summary_2026.html",
+    "items": [
+      "/sem/2026/s2026_01.html",
+      "/sem/2026/s2026_02.html",
+      "/sem/2026/s2026_03.html",
+      "/sem/2026/s2026_04.html",
+      "/sem/2026/s2026_06.html"
     ]
   },
   {
