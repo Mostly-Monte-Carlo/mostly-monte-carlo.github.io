@@ -15,8 +15,19 @@ Organisers emeriti: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), a
 ------------------------------------------------------------------------
 
 ::: callout-tip
+## Next Seminar: 11th September
 
-## Next Seminar: 5th June
+[Salle 06](psc_rooms.qmd), 3PM Friday
+
+-  **Federica Milinanni** *Northwestern University*
+-  **Sylvain Procope-Mamert** *INRAE*
+
+[More details...](sem/2026/s2026_09.qmd)
+
+:::
+
+::: callout-warning
+## Last Seminar: 5th June
 
 [Salle 06](psc_rooms.qmd), 3PM Friday
 
@@ -24,16 +35,3 @@ Organisers emeriti: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), a
 -  **Dana Naderi** *Université Paris Dauphine-PSL*
 
 [More details...](sem/2026/s2026_06.qmd)
-:::
-
-::: callout-warning
-## Last Seminar: 10th April
-
-[Salle 06](psc_rooms.qmd), 3PM Friday
-
--  **Pierre Monmarché** *Université Gustave Eiffel*
--  **Shiva Darshan** *ESSEC Business School*
-
-[More details...](sem/2026/s2026_04.qmd)
-:::
-

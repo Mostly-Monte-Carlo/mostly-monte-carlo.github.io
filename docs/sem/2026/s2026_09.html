@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>October – Mostly Monte Carlo Seminar</title>
+<title>September – Mostly Monte Carlo Seminar</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../sem/2023/s2023_11.html" rel="next">
-<link href="../../sem/summary_2023.html" rel="prev">
 <link href="../../data/favicon64.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -117,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2023.html">2023</a></li><li class="breadcrumb-item"><a href="../../sem/2023/s2023_10.html">October</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">September</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -319,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../sem/2023/s2023_10.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../sem/2023/s2023_10.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">October</span></a>
   </div>
 </li>
@@ -347,17 +345,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#piecewise-deterministic-sampling-with-splitting-schemes" id="toc-piecewise-deterministic-sampling-with-splitting-schemes" class="nav-link active" data-scroll-target="#piecewise-deterministic-sampling-with-splitting-schemes"><strong>Piecewise deterministic sampling with splitting schemes</strong></a></li>
-  <li><a href="#bayesian-score-calibration-for-approximate-models" id="toc-bayesian-score-calibration-for-approximate-models" class="nav-link" data-scroll-target="#bayesian-score-calibration-for-approximate-models"><strong>Bayesian score calibration for approximate models</strong></a></li>
+  <li><a href="#tba" id="toc-tba" class="nav-link active" data-scroll-target="#tba">TBA</a></li>
+  <li><a href="#tba-1" id="toc-tba-1" class="nav-link" data-scroll-target="#tba-1">TBA</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/summary_2023.html">2023</a></li><li class="breadcrumb-item"><a href="../../sem/2023/s2023_10.html">October</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">October</h1>
+<h1 class="title">September</h1>
 </div>
 
 
@@ -368,7 +366,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Time and date</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">4PM Friday, Oct 13, 2023</p>
+      <p class="date">3PM Friday, Sep 11, 2026</p>
     </div>
   </div>
   
@@ -380,17 +378,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../../psc_rooms.html">Salle 07</a>, <a href="https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9">PariSanté Campus</a></p>
+<p><a href="../../psc_rooms.html">Salle 06</a>, <a href="https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9">PariSanté Campus</a></p>
 <hr>
-<section id="piecewise-deterministic-sampling-with-splitting-schemes" class="level3">
-<h3 class="anchored" data-anchor-id="piecewise-deterministic-sampling-with-splitting-schemes"><strong>Piecewise deterministic sampling with splitting schemes</strong></h3>
-<p><strong>Andrea Bertazzi</strong> <em>CMAP, École Polytechnique</em>&nbsp;</p>
-<p>Piecewise deterministic Markov processes (PDMPs) received substantial interest in recent years as an alternative to classical Markov chain&nbsp;Monte&nbsp;Carloalgorithms. While theoretical properties of PDMPs have been studied extensively, their practical implementation remains limited to specific applications in which bounds on the gradient of the negative log-target can be derived. In order to address this problem, we propose to approximate PDMPs using splitting schemes, that means simulating the deterministic dynamics and the random jumps in two different stages. We show that symmetric splittings of PDMPs are of second order. Then we focus on the Zig-Zag sampler (ZZS) and show how to remove the bias of the splitting scheme with a skew reversible Metropolis filter. Finally, we illustrate with numerical simulations the advantages of our proposed scheme over competitors.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Seminar time
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This seminar is scheduled for <strong>3PM</strong>. (Abstracts and Titles TBA)</p>
+</div>
+</div>
+<section id="tba" class="level3">
+<h3 class="anchored" data-anchor-id="tba">TBA</h3>
+<p><strong><a href="https://sites.google.com/view/federicamilinanni">Federica Milinanni</a></strong> <em>Northwestern University</em></p>
 </section>
-<section id="bayesian-score-calibration-for-approximate-models" class="level3">
-<h3 class="anchored" data-anchor-id="bayesian-score-calibration-for-approximate-models"><strong>Bayesian score calibration for approximate models</strong></h3>
-<p><strong>Joshua Bon</strong> <em>Ceremade, Université Paris Dauphine-PSL</em></p>
-<p>Scientists continue to develop increasingly complex mechanistic models to reflect their knowledge more realistically. Statistical inference using these models can be challenging since the corresponding likelihood function is often intractable and model simulation may be computationally burdensome.&nbsp; Fortunately, in many of these situations, it is possible to adopt a surrogate model or approximate likelihood function.&nbsp; It may be convenient to base Bayesian inference directly on the surrogate, but this can result in bias and poor uncertainty quantification.&nbsp; In this paper we propose a new method for adjusting approximate posterior samples to reduce bias and produce more accurate uncertainty quantification.&nbsp; We do this by optimizing a transform of the approximate posterior that maximizes a scoring rule.&nbsp; Our approach requires only a (fixed) small number of complex model simulations and is numerically stable.&nbsp; We demonstrate good performance of the new method on several examples of increasing complexity.</p>
+<section id="tba-1" class="level3">
+<h3 class="anchored" data-anchor-id="tba-1">TBA</h3>
+<p><strong><a href="https://maiage.inrae.fr/node/2856">Sylvain Procope-Mamert</a></strong> <em>INRAE</em></p>
 
 
 </section>
@@ -796,18 +805,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../sem/summary_2023.html" class="pagination-link" aria-label="2023">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2023</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../../sem/2023/s2023_11.html" class="pagination-link" aria-label="November">
-        <span class="nav-page-text">November</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

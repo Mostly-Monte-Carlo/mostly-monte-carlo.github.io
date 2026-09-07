@@ -1,10 +1,13 @@
 [
   {
-    "listing": "/sem/summary_2023.html",
+    "listing": "/sem/summary_2026.html",
     "items": [
-      "/sem/2023/s2023_10.html",
-      "/sem/2023/s2023_11.html",
-      "/sem/2023/s2023_12.html"
+      "/sem/2026/s2026_01.html",
+      "/sem/2026/s2026_02.html",
+      "/sem/2026/s2026_03.html",
+      "/sem/2026/s2026_04.html",
+      "/sem/2026/s2026_06.html",
+      "/sem/2026/s2026_09.html"
     ]
   },
   {
@@ -23,13 +26,11 @@
     ]
   },
   {
-    "listing": "/sem/summary_2026.html",
+    "listing": "/sem/summary_2023.html",
     "items": [
-      "/sem/2026/s2026_01.html",
-      "/sem/2026/s2026_02.html",
-      "/sem/2026/s2026_03.html",
-      "/sem/2026/s2026_04.html",
-      "/sem/2026/s2026_06.html"
+      "/sem/2023/s2023_10.html",
+      "/sem/2023/s2023_11.html",
+      "/sem/2023/s2023_12.html"
     ]
   },
   {
