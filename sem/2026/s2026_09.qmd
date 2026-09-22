@@ -1,43 +1,33 @@
 ---
   title: "September"
-  date: "2026-09-11 14:00"
+  date: "2026-09-11 15:00"
   published-title: "Time and date"
   date-format: "hA dddd, MMM D, YYYY"
 ---
 
-[Salle 03](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
+[Salle 06](../../psc_rooms.qmd), [PariSanté Campus](https://maps.app.goo.gl/cpFoxoZgbT6HCV6x9)
 
 ------------------------------------------------------------------------
 
-:::{.callout-tip}
+::: callout-tip
 ## Seminar time
 
-This seminar is scheduled for **2PM**.
+This seminar is scheduled for **3PM**. (Abstracts and Titles TBA)
 :::
-
-
-### Contributions to the Theory of Bayesian Computation: Bias, Information, and Robustness
-
-**[Mehdi Khribch](https://mehdi-khribch.github.io/)** *ESSEC Business School*
-
-Bayesian inference is rarely computable exactly, and every practical substitute, whether a Monte Carlo sampler, a tempered posterior or a variational approximation, carries an error. This thesis gives finite-sample guarantees for three of them: the bias of sampling-based integration, the information cost of data-dependent posteriors, and the robustness of inference under misspecification. The unifying tools throughout are PAC-Bayesian change-of-measure inequalities and their information-theoretic counterparts. 
-
-
 
 ### Rapid Mixing of Stereographic MCMC for Heavy-Tailed Sampling
 
-**[Federica Milinanni](https://sites.google.com/view/federicamilinanni)** *Northwestern University*
+[**Federica Milinanni**](https://sites.google.com/view/federicamilinanni) *Northwestern University*
 
 Sampling from high-dimensional, heavy-tailed distributions is a fundamental challenge in computational statistics, as many standard Markov chain Monte Carlo (MCMC) methods mix poorly in such settings. Recently, Stereographic MCMC [Yang et al., 2024] and the Sub-Cauchy Projection Sampler [Grazzi et al., 2026] have been shown to perform successfully on such tasks. However, establishing their non-asymptotic convergence properties remains an important open problem. In this work, we fill this gap by establishing non-asymptotic upper bounds on the mixing time of the stereographic projection and sub-Cauchy projection samplers. Our results demonstrate that, under certain conditions on the target and initial distributions, the mixing time is polynomial in dimension for a broad class of distributions, including light- and heavy-tailed cases.
-
 Motivated by the theoretical analysis, we further establish a new weighted isoperimetric inequality that extends the classical version for (strongly) log-concave distributions to the heavy-tailed setting with optimal dimension dependence.
-
 The proof techniques provide new insights into the geometric properties of heavy-tailed distributions that govern rapid mixing in high dimensions.
-
 This is joint work with Tyler Farghly (Inria) and Jun Yang (University of Copenhagen)
 
 ### A forward only method to construct proposal distributions in particle filters
 
-**[Sylvain Procope-Mamert](https://maiage.inrae.fr/node/2856)** *INRAE*
+[**Sylvain Procope-Mamert**](https://maiage.inrae.fr/node/2856) *INRAE*
 
 Particle filters are powerful algorithms used to sample from a sequence of distributions. It is useful notably, for Bayesian inference with different types of models and real data applications. In particular, when we try to recover a hidden signal from sequentially produced data with state-space models, the canonically defined proposals known as the bootstrap particle filter are rarely well-behaved and need extra work to be turned into useful sampling algorithms. Previous works on iterated methods for the automated construction of sequential Monte Carlo proposals, which were based on a backward scheme, have shown how to gradually improve proposals to reach a global optimality criterion, but they require a good initial proposal and cannot be used online.
+
+We introduce a new online approach for constructing proposal distributions in particle filters using a forward-only scheme. Our method progressively incorporates future observations to refine proposals. This is in contrast to backward-scheme algorithms that require access to the entire dataset, which leverage all future observations through backward recursion. On simulated and real data applications, this method offers significant gain in computational robustness compared to backward methods.

@@ -1,0 +1,194 @@
+{
+  "part_2_eda.qmd": {
+    "part_2_eda.html": "ad90df4e"
+  },
+  "index.qmd": {
+    "index.html": "d6126eef"
+  },
+  "about.qmd": {
+    "about.html": "707237ad"
+  },
+  "part_1_prep.qmd": {
+    "part_1_prep.html": "5939be43"
+  },
+  "seminars_2023.qmd": {
+    "seminars_2023.html": "2db69d1e"
+  },
+  "nov2023.qmd": {
+    "nov2023.html": "2004b8b3"
+  },
+  "oct2023.qmd": {
+    "oct2023.html": "97277316"
+  },
+  "dec2023.qmd": {
+    "dec2023.html": "2d1a71d1"
+  },
+  "sem/dec2023.qmd": {
+    "dec2023.html": "ea27a239"
+  },
+  "sem/oct2023.qmd": {
+    "oct2023.html": "68f999c9"
+  },
+  "sem/nov2023.qmd": {
+    "nov2023.html": "588d55a4"
+  },
+  "sem/jan2024.qmd": {
+    "jan2024.html": "abc5b2e5"
+  },
+  "sem/s2023_11.qmd": {
+    "s2023_11.html": "ff7e83dd"
+  },
+  "sem/s2023_10.qmd": {
+    "s2023_10.html": "11677299"
+  },
+  "sem/s2023_12.qmd": {
+    "s2023_12.html": "6eb53f44"
+  },
+  "sem/s2024_03.qmd": {
+    "s2024_03.html": "6c00d853"
+  },
+  "sem/s2024_02.qmd": {
+    "s2024_02.html": "1e132586"
+  },
+  "sem/s2024_01.qmd": {
+    "s2024_01.html": "61cc0a4b"
+  },
+  "psc_rooms.qmd": {
+    "psc_rooms.html": "9859f13a"
+  },
+  "sem/s202X_XX.qmd": {
+    "s202X_XX.html": "bef4a8b8"
+  },
+  "sem/s2024_05.qmd": {
+    "s2024_05.html": "6161a216"
+  },
+  "sem/s2024_04.qmd": {
+    "s2024_04.html": "e00fff04"
+  },
+  "sem/s2024_04_sp.qmd": {
+    "s2024_04_sp.html": "5cbd6cf4"
+  },
+  "sem/s2024_11.qmd": {
+    "s2024_11.html": "6e93e457"
+  },
+  "sem/s2024_10.qmd": {
+    "s2024_10.html": "8b9a3035"
+  },
+  "sem/s2024_12.qmd": {
+    "s2024_12.html": "1c11e9b1"
+  },
+  "sem/s2025_09.qmd": {
+    "s2025_09.html": "f60217e0"
+  },
+  "sem/s2024_09.qmd": {
+    "s2024_09.html": "8ceecdbf"
+  },
+  "sem/s2025_01.qmd": {
+    "s2025_01.html": "8afc4034"
+  },
+  "sem/s2025_02.qmd": {
+    "s2025_02.html": "0c9a44fd"
+  },
+  "sem/s2025_03.qmd": {
+    "s2025_03.html": "acf7f5fe"
+  },
+  "sem/2025/s2025_01.qmd": {
+    "s2025_01.html": "9b4639d1"
+  },
+  "sem/2025/s2025_02.qmd": {
+    "s2025_02.html": "6aa84ff1"
+  },
+  "sem/2025/s2025_03.qmd": {
+    "s2025_03.html": "27c564b6"
+  },
+  "sem/summary_2024.qmd": {
+    "summary_2024.html": "e9d1921c"
+  },
+  "sem/2024/s2024_09.qmd": {
+    "s2024_09.html": "926791f2"
+  },
+  "sem/2024/s2024_03.qmd": {
+    "s2024_03.html": "b0b6196e"
+  },
+  "sem/2024/s2024_02.qmd": {
+    "s2024_02.html": "86aee9a3"
+  },
+  "sem/2024/s2024_01.qmd": {
+    "s2024_01.html": "418359aa"
+  },
+  "sem/2024/s2024_11.qmd": {
+    "s2024_11.html": "2bb06b61"
+  },
+  "sem/2024/s2024_05.qmd": {
+    "s2024_05.html": "933577c5"
+  },
+  "sem/2024/s2024_04_sp.qmd": {
+    "s2024_04_sp.html": "64f288bb"
+  },
+  "sem/2024/s2024_04.qmd": {
+    "s2024_04.html": "80655250"
+  },
+  "sem/2024/s2024_10.qmd": {
+    "s2024_10.html": "b32cd3b5"
+  },
+  "sem/2024/s2024_12.qmd": {
+    "s2024_12.html": "86a1190a"
+  },
+  "sem/summary_2025.qmd": {
+    "summary_2025.html": "5b689c24"
+  },
+  "sem/2023/s2023_11.qmd": {
+    "s2023_11.html": "79dbb39f"
+  },
+  "sem/2023/s2023_10.qmd": {
+    "s2023_10.html": "310fe30a"
+  },
+  "sem/2023/s2023_12.qmd": {
+    "s2023_12.html": "49da3d18"
+  },
+  "sem/summary_2023.qmd": {
+    "summary_2023.html": "805af442"
+  },
+  "sem/2025/s2025_04.qmd": {
+    "s2025_04.html": "cf3243a8"
+  },
+  "sem/2025/s2025_05.qmd": {
+    "s2025_05.html": "03311b3d"
+  },
+  "sem/2025/test.qmd": {
+    "test.html": "967e9775"
+  },
+  "sem/2025/s2025_06.qmd": {
+    "s2025_06.html": "fad80dfc"
+  },
+  "sem/2025/s2025_10.qmd": {
+    "s2025_10.html": "bcd7fe14"
+  },
+  "sem/2025/s2025_11.qmd": {
+    "s2025_11.html": "c3d445dd"
+  },
+  "sem/2025/s2025_12.qmd": {
+    "s2025_12.html": "f1dc7b9f"
+  },
+  "sem/2026/s2026_01.qmd": {
+    "s2026_01.html": "6a765f26"
+  },
+  "sem/summary_2026.qmd": {
+    "summary_2026.html": "603db52c"
+  },
+  "sem/2026/s2026_02.qmd": {
+    "s2026_02.html": "80e3db7a"
+  },
+  "sem/2026/s2026_03.qmd": {
+    "s2026_03.html": "284be4c4"
+  },
+  "sem/2026/s2026_04.qmd": {
+    "s2026_04.html": "6aa9af73"
+  },
+  "sem/2026/s2026_06.qmd": {
+    "s2026_06.html": "122c9dd7"
+  },
+  "sem/2026/s2026_09.qmd": {
+    "s2026_09.html": "c91da6c1"
+  }
+}

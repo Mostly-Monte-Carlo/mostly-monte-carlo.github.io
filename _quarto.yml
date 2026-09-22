@@ -23,10 +23,6 @@ website:
           - sem/2026/s2026_03.qmd
           - sem/2026/s2026_04.qmd
           - sem/2026/s2026_06.qmd
-          - sem/2026/s2026_09.qmd
-          - sem/2026/s2026_10.qmd
-          - sem/2026/s2026_11.qmd
-          - sem/2026/s2026_12.qmd
       - section: "2025"
         href: sem/summary_2025.qmd
         contents:
