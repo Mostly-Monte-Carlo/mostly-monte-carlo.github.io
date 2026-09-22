@@ -345,8 +345,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tba" id="toc-tba" class="nav-link active" data-scroll-target="#tba">TBA</a></li>
-  <li><a href="#tba-1" id="toc-tba-1" class="nav-link" data-scroll-target="#tba-1">TBA</a></li>
+  <li><a href="#rapid-mixing-of-stereographic-mcmc-for-heavy-tailed-sampling" id="toc-rapid-mixing-of-stereographic-mcmc-for-heavy-tailed-sampling" class="nav-link active" data-scroll-target="#rapid-mixing-of-stereographic-mcmc-for-heavy-tailed-sampling">Rapid Mixing of Stereographic MCMC for Heavy-Tailed Sampling</a></li>
+  <li><a href="#a-forward-only-method-to-construct-proposal-distributions-in-particle-filters" id="toc-a-forward-only-method-to-construct-proposal-distributions-in-particle-filters" class="nav-link" data-scroll-target="#a-forward-only-method-to-construct-proposal-distributions-in-particle-filters">A forward only method to construct proposal distributions in particle filters</a></li>
   </ul>
 </nav>
     </div>
@@ -393,13 +393,16 @@ ul.task-list li input[type="checkbox"] {
 <p>This seminar is scheduled for <strong>3PM</strong>. (Abstracts and Titles TBA)</p>
 </div>
 </div>
-<section id="tba" class="level3">
-<h3 class="anchored" data-anchor-id="tba">TBA</h3>
-<p><strong><a href="https://sites.google.com/view/federicamilinanni">Federica Milinanni</a></strong> <em>Northwestern University</em></p>
+<section id="rapid-mixing-of-stereographic-mcmc-for-heavy-tailed-sampling" class="level3">
+<h3 class="anchored" data-anchor-id="rapid-mixing-of-stereographic-mcmc-for-heavy-tailed-sampling">Rapid Mixing of Stereographic MCMC for Heavy-Tailed Sampling</h3>
+<p><a href="https://sites.google.com/view/federicamilinanni"><strong>Federica Milinanni</strong></a> <em>Northwestern University</em></p>
+<p>Sampling from high-dimensional, heavy-tailed distributions is a fundamental challenge in computational statistics, as many standard Markov chain Monte Carlo (MCMC) methods mix poorly in such settings. Recently, Stereographic MCMC [Yang et al., 2024] and the Sub-Cauchy Projection Sampler [Grazzi et al., 2026] have been shown to perform successfully on such tasks. However, establishing their non-asymptotic convergence properties remains an important open problem. In this work, we fill this gap by establishing non-asymptotic upper bounds on the mixing time of the stereographic projection and sub-Cauchy projection samplers. Our results demonstrate that, under certain conditions on the target and initial distributions, the mixing time is polynomial in dimension for a broad class of distributions, including light- and heavy-tailed cases. Motivated by the theoretical analysis, we further establish a new weighted isoperimetric inequality that extends the classical version for (strongly) log-concave distributions to the heavy-tailed setting with optimal dimension dependence. The proof techniques provide new insights into the geometric properties of heavy-tailed distributions that govern rapid mixing in high dimensions. This is joint work with Tyler Farghly (Inria) and Jun Yang (University of Copenhagen)</p>
 </section>
-<section id="tba-1" class="level3">
-<h3 class="anchored" data-anchor-id="tba-1">TBA</h3>
-<p><strong><a href="https://maiage.inrae.fr/node/2856">Sylvain Procope-Mamert</a></strong> <em>INRAE</em></p>
+<section id="a-forward-only-method-to-construct-proposal-distributions-in-particle-filters" class="level3">
+<h3 class="anchored" data-anchor-id="a-forward-only-method-to-construct-proposal-distributions-in-particle-filters">A forward only method to construct proposal distributions in particle filters</h3>
+<p><a href="https://maiage.inrae.fr/node/2856"><strong>Sylvain Procope-Mamert</strong></a> <em>INRAE</em></p>
+<p>Particle filters are powerful algorithms used to sample from a sequence of distributions. It is useful notably, for Bayesian inference with different types of models and real data applications. In particular, when we try to recover a hidden signal from sequentially produced data with state-space models, the canonically defined proposals known as the bootstrap particle filter are rarely well-behaved and need extra work to be turned into useful sampling algorithms. Previous works on iterated methods for the automated construction of sequential Monte Carlo proposals, which were based on a backward scheme, have shown how to gradually improve proposals to reach a global optimality criterion, but they require a good initial proposal and cannot be used online.</p>
+<p>We introduce a new online approach for constructing proposal distributions in particle filters using a forward-only scheme. Our method progressively incorporates future observations to refine proposals. This is in contrast to backward-scheme algorithms that require access to the entire dataset, which leverage all future observations through backward recursion. On simulated and real data applications, this method offers significant gain in computational robustness compared to backward methods.</p>
 
 
 </section>
