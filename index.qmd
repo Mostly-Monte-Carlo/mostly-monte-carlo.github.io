@@ -6,18 +6,18 @@ A monthly seminar (mostly) on the theory and practice of Monte Carlo in statisti
 
 ------------------------------------------------------------------------
 
-Held on the **2nd Friday of each month** (approximately) at the **PariSanté Campus**.
+Held on the **2nd Friday of each month** \(approximately\) at the **PariSanté Campus**.
 
-Organised by Timothy Johnston and Cameron Bell
+Organised by Cameron Bell and [Shiva Darshan](https://shiva-darshan.github.io/)
 
-Organisers emeriti: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), and [Antoine Luciano](https://sites.google.com/view/aluciano).
+Organisers emeriti: Andrea Bertazzi, [Joshua Bon](https://bonstats.github.io), [Antoine Luciano](https://sites.google.com/view/aluciano), and Timothy Johnston.
 
 ------------------------------------------------------------------------
 
 ::: callout-tip
 ## Next Seminar: 9th October
 
-[Salle TBA](psc_rooms.qmd), 3PM Friday
+[Salle 03](psc_rooms.qmd), 3PM Friday
 
 **Speakers to be announced**
 
