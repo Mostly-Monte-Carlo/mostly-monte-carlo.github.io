@@ -1,0 +1,54 @@
+---
+title: "PSC reading group"
+---
+
+The sessions are on Friday afternoons, usually at 15:00. The rooms are indicated in the [Direction page](../psc_rooms.qmd). 
+
+::: callout-tip
+## Next meeting: 25th September 
+
+[Salle 03](../psc_rooms.qmd), 3PM Friday
+
+Special session: Talk by [**Leo Duan**](https://leoduan.github.io/) *University of Florida*
+
+:::
+
+::: callout-warning
+## Upcoming meetings:
+
+- **2nd October** [Salle 07](../psc_rooms.qmd), 3PM Friday
+
+	Meyn and Tweedie \(1992\) "Criteria for stability of Markovian processes I: Discrete time chains" \(available on Sean Meyn's [website](https://faculty.eng.ufl.edu/meyn/wp-content/uploads/sites/671/archive/spm_files/Papers_pdf/meytweI.pdf)\) presented by Shiva
+
+- **16th October** [Salle 03](../psc_rooms.qmd), 3PM Friday
+
+	Meyn and Tweedie \(1993\) "Criteria for stability of Markovian processes II: continuous time processes and sampled chains" \(available on Sean Meyn's [website](https://faculty.eng.ufl.edu/meyn/wp-content/uploads/sites/671/archive/spm_files/Papers_pdf/meytweII.pdf)\). **Volunteer wanted**!
+
+- **23rd October** [Salle 03](../psc_rooms.qmd), 3PM Friday
+
+	Meyn and Tweedie \(1993\) "Criteria for stability of Markovian processes III: Foster-Lyapunov criteria for continuous time processes, with examples" \(available on Sean Meyn's [website](https://faculty.eng.ufl.edu/meyn/wp-content/uploads/sites/671/archive/spm_files/Papers_pdf/meytweIII.pdf)\). **Volunteer wanted**!
+:::
+
+
+
+
+----
+
+
+Possible future reads:
+
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) by Vaswani et al.
+
+- [Scalable Monte Carlo for Bayesian Learning](https://arxiv.org/abs/2407.12751) by Paul Fearnhead, Christopher Nemeth, Chris J. Oates, Chris Sherlock
+
+- [Sub-Cauchy Sampling: Escaping the Dark Side of the Moon](https://arxiv.org/abs/2601.11066) by Sebastiano Grazzi, Sifan Liu, Gareth O. Roberts, Jun Yang
+
+- [Central Limit Theorem for ergodic averages of Markov chains & the comparison of sampling algorithms for heavy-tailed distributions](https://arxiv.org/abs/2512.18255) by Miha Brešar, Aleksandar Mijatović, Gareth Roberts
+
+- [Zeroth-order parallel sampling](https://www.arxiv.org/abs/2601.19722) by Francesco Pozza and Giacomo Zanella.
+
+
+
+----
+
+Last spring's reading group [Spring 2026](spring2026.qmd)
