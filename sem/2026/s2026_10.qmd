@@ -12,18 +12,17 @@
 :::{.callout-tip}
 ## Seminar time
 
-This seminar is tenatively scheduled for **3PM**.
+This seminar is scheduled for **3PM**.
 :::
 
-### Title to come
+### Rethinking self-normalized importance sampling
 
-**Speaker to be announced**
+**[Víctor Elvira](https://victorelvira.github.io/)** *University of Edinburgh, UK*
 
-Abstract to come.
+Self-normalized importance sampling (SNIS) is one of the most widely used Monte Carlo techniques for inference with unnormalized target distributions. Despite its usefulness, SNIS is often viewed simply as a normalized version of ordinary importance sampling, and many of its methodological questions remain largely unexplored. In this talk, we revisit SNIS from a unified perspective. We first introduce a generalized formulation of self-normalized importance sampling based on coupled proposals, showing that the classical SNIS estimator is only one member of a broader family of Monte Carlo estimators with new opportunities for variance reduction. We then consider the classical SNIS estimator and present adaptive algorithms that learn proposals tailored to its optimal proposal distribution, together with theoretical guarantees including consistency, asymptotic normality, and convergence of the proposal. Together, these developments suggest that self-normalized importance sampling should be regarded as a distinct Monte Carlo methodology, with its own theory, optimality principles, and algorithmic design.
 
+### Rate-Optimal Randomised Kernel Quadrature
 
-### Title to come
+**Edoardo Bandani** *Université Paris Dauphine-PSL, France*
 
-**Speaker to be announced**
-
-Abstract to come.
+Kernel quadrature is widely used to approximate integrals of smooth functions, with the worst-case error typically decaying at the minimax rate $n^{-\frac{\alpha}{d}}$ for smoothness $\alpha$ in dimension $d$. Existing rate-optimal methods often depend on deterministic point sets tailored to a specific kernel, making them sensitive to misspecification and less robust in practice. In this work, we study randomised quadrature methods with a focus on robustness rather than kernel-specific optimality. By minimising a tractable upper bound on the worst-case error, we obtain an explicit sampling distribution $p^\star\propto\pi^\gamma$ with $\gamma=2d/(2\alpha+d)$, which depends on the integration density $\pi$ and on $\alpha$ but not on the kernel beyond its Sobolev order. Under a weak doubling condition on the design measure, independent samples from $p^\star$ attain the minimax rate $n^{-\frac{\alpha}{d}}$. These assumptions cover a broad class of targets on compact and unbounded domains; we verify them explicitly for Beta-type densities, Gaussian measures, and Student-$t$ distributions, the last of which yields the minimax rate $n^{-\min(\alpha,\,\nu+d/2)/d}$. This kernel-agnostic design improves robustness while maintaining optimal rates, and it applies beyond compact domains. The results provide both theoretical guarantees and a practical recipe for robust, rate-optimal randomised quadrature.
