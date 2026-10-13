@@ -1,6 +1,6 @@
 ---
   title: "November"
-  date: "2026-11-13 15:00"
+  date: "2026-11-13 14:30"
   published-title: "Time and date"
   date-format: "hA dddd, MMM D, YYYY"
 ---
@@ -12,18 +12,18 @@
 :::{.callout-tip}
 ## Seminar time
 
-This seminar is tenatively scheduled for **3PM**.
+This seminar is scheduled for **2:30PM**. *Early start time!*
 :::
 
 ### Title to come
 
-**Speaker to be announced**
+**[Simon Coste](https://scoste.fr/)** *LPSM Université de Paris Cité*
 
 Abstract to come.
 
 
 ### Title to come
 
-**Speaker to be announced**
+**[Tyler Farghly](https://tylerkf.github.io/)** *Inria Paris/École Normal Supérieure*
 
 Abstract to come.
