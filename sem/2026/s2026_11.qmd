@@ -9,21 +9,35 @@
 
 ------------------------------------------------------------------------
 
-:::{.callout-tip}
+::: callout-tip
 ## Seminar time
 
 This seminar is scheduled for **2:30PM**. *Early start time!*
 :::
 
-### Title to come
+### Importance Sampling
 
-**[Simon Coste](https://scoste.fr/)** *LPSM Université de Paris Cité*
+[**Simon Coste**](https://scoste.fr/) *LPSM Université de Paris Cité*
 
-Abstract to come.
+Importance sampling is a technique for estimating integrals of the form 
+E[φ(X)], where X has a density g that may be difficult to sample from or 
+otherwise handle. The simplest Monte Carlo method would consist of 
+generating i.i.d. samples X_1,...,X_n from g and averaging the values 
+φ(X_i). By contrast, Importance Sampling (IS) consists of using samples  
+Y_1,...,Y_n from another density, say f, and averaging the reweighted 
+values φ(Y_i) * g(Y_i)/f(Y_i). This works provided that f is positive 
+when g is positive, but there is no free lunch: the price to pay can be 
+high variance and poor accuracy. In this expository talk, I will (1) 
+explain when and how to use IS, with practical examples from chemistry 
+and combinatorics; (2) explain how to measure the accuracy of IS and 
+determine the sample size n needed for an accurate estimation of 
+E[φ(X)], locally for a specific φ; and (3) explain how to measure this 
+accuracy globally using Wasserstein distances, even in infinite 
+dimensions for stochastic diffusions.
 
 
-### Title to come
+### Monte Carlo Methods for Diffusion Model Sampling
 
-**[Tyler Farghly](https://tylerkf.github.io/)** *Inria Paris/École Normal Supérieure*
+[**Tyler Farghly**](https://tylerkf.github.io/) *Inria Paris/École Normal Supérieure*
 
-Abstract to come.
+Diffusion models are typically sampled quickly and approximately, at scale. However, a growing number of applications require samples that are exact, or that come with guarantees on their accuracy. The Monte Carlo literature offers a rich set of tools for exact and asymptotically exact inference from approximate dynamics, and in this talk I will argue that these tools have a natural role in diffusion model sampling. I will present two recent works in this direction. The first introduces Barker accept–reject steps into the Langevin correctors used in diffusion sampling, computed using only the score. The second uses rejection sampling to obtain exact samples. Together, these works suggest that Monte Carlo methods have much to offer diffusion models, and that diffusion models in turn pose new and interesting challenges for the sampling literature.

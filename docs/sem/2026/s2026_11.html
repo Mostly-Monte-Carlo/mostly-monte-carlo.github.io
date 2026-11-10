@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-0d85d099e86655d2765554fde76eccf2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-1d0662f04824ac5e309e7e586f4e9327.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -372,8 +375,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#title-to-come" id="toc-title-to-come" class="nav-link active" data-scroll-target="#title-to-come">Title to come</a></li>
-  <li><a href="#title-to-come-1" id="toc-title-to-come-1" class="nav-link" data-scroll-target="#title-to-come-1">Title to come</a></li>
+  <li><a href="#importance-sampling" id="toc-importance-sampling" class="nav-link active" data-scroll-target="#importance-sampling">Importance Sampling</a></li>
+  <li><a href="#monte-carlo-methods-for-diffusion-model-sampling" id="toc-monte-carlo-methods-for-diffusion-model-sampling" class="nav-link" data-scroll-target="#monte-carlo-methods-for-diffusion-model-sampling">Monte Carlo Methods for Diffusion Model Sampling</a></li>
   </ul>
 </nav>
     </div>
@@ -420,15 +423,16 @@ ul.task-list li input[type="checkbox"] {
 <p>This seminar is scheduled for <strong>2:30PM</strong>. <em>Early start time!</em></p>
 </div>
 </div>
-<section id="title-to-come" class="level3">
-<h3 class="anchored" data-anchor-id="title-to-come">Title to come</h3>
-<p><strong><a href="https://scoste.fr/">Simon Coste</a></strong> <em>LPSM Université de Paris Cité</em></p>
-<p>Abstract to come.</p>
+<section id="importance-sampling" class="level3">
+<h3 class="anchored" data-anchor-id="importance-sampling">Importance Sampling</h3>
+<p><a href="https://scoste.fr/"><strong>Simon Coste</strong></a> <em>LPSM Université de Paris Cité</em></p>
+<p>Importance sampling is a technique for estimating integrals of the form E[φ(X)], where X has a density g that may be difficult to sample from or otherwise handle. The simplest Monte Carlo method would consist of generating i.i.d. samples X_1,…,X_n from g and averaging the values φ(X_i). By contrast, Importance Sampling (IS) consists of using samples<br>
+Y_1,…,Y_n from another density, say f, and averaging the reweighted values φ(Y_i) * g(Y_i)/f(Y_i). This works provided that f is positive when g is positive, but there is no free lunch: the price to pay can be high variance and poor accuracy. In this expository talk, I will (1) explain when and how to use IS, with practical examples from chemistry and combinatorics; (2) explain how to measure the accuracy of IS and determine the sample size n needed for an accurate estimation of E[φ(X)], locally for a specific φ; and (3) explain how to measure this accuracy globally using Wasserstein distances, even in infinite dimensions for stochastic diffusions.</p>
 </section>
-<section id="title-to-come-1" class="level3">
-<h3 class="anchored" data-anchor-id="title-to-come-1">Title to come</h3>
-<p><strong><a href="https://tylerkf.github.io/">Tyler Farghly</a></strong> <em>Inria Paris/École Normal Supérieure</em></p>
-<p>Abstract to come.</p>
+<section id="monte-carlo-methods-for-diffusion-model-sampling" class="level3">
+<h3 class="anchored" data-anchor-id="monte-carlo-methods-for-diffusion-model-sampling">Monte Carlo Methods for Diffusion Model Sampling</h3>
+<p><a href="https://tylerkf.github.io/"><strong>Tyler Farghly</strong></a> <em>Inria Paris/École Normal Supérieure</em></p>
+<p>Diffusion models are typically sampled quickly and approximately, at scale. However, a growing number of applications require samples that are exact, or that come with guarantees on their accuracy. The Monte Carlo literature offers a rich set of tools for exact and asymptotically exact inference from approximate dynamics, and in this talk I will argue that these tools have a natural role in diffusion model sampling. I will present two recent works in this direction. The first introduces Barker accept–reject steps into the Langevin correctors used in diffusion sampling, computed using only the score. The second uses rejection sampling to obtain exact samples. Together, these works suggest that Monte Carlo methods have much to offer diffusion models, and that diffusion models in turn pose new and interesting challenges for the sampling literature.</p>
 
 
 </section>
